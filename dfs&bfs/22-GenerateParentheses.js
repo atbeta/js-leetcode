@@ -21,7 +21,6 @@ var generateParenthesis = function(n) {
   // dfs
   let result = []
   dfs(n,n,'',result)
-  console.log(result)
 }
 
 function dfs(m, n, path='', result = []) {// m n 表示剩余的左括号和右括号，path表示目前已填充

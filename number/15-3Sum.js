@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
+// 旧解法，暂保留
 const threeSum = function(nums) {
   let result = []
   // 将数字按零、正、负分类
